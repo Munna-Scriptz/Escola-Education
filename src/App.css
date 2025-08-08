@@ -1,47 +1,8 @@
 /* --------------Common Css--------------- */
 #Banner{
     width: 100%;
-    background-image: url(../src/assets/images/BannerImg.png);
+    background-image: url(../src/assets/images/BannerDeco.png);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     background-position: center;
-}
-.TextUnderline{
-    text-decoration: underline;
-    text-decoration-thickness: 3px;
-    text-underline-offset: 5px;
-}
-.RotateText{
-    transition: all linear 300ms;
-    animation: Rotate infinite linear 10s;
-}
-@keyframes Rotate {
-    0%{
-        transform: rotate(0deg);
-    }
-    100%{
-        transform: rotate(360deg);
-    }
-}
-#FooterBorder::after{
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 50%;
-    width: 927px;
-    margin:  0 auto;
-    height: 1px;
-    transform: translateX(-50%);
-    background: linear-gradient(to right, transparent, rgba(255, 255, 255, 0.6), transparent);
-}
-#FooterBorder::before{
-    content: '';
-    position: absolute;
-    bottom: 0;
-    left: 50%;
-    width: 770px;
-    margin:  0 auto;
-    height: 1px;
-    transform: translateX(-50%);
-    background: linear-gradient(to right, transparent, rgba(255, 255, 255, 0.6), transparent);
 }

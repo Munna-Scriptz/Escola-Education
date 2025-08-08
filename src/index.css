@@ -10,6 +10,7 @@
 /* ------------Themes------------ */
 @theme{
   --font-inter: "Inter", "sans-serif";
+  --color-primary: #25C6DA;
   --color-brand: #EF0101;
   --color-secondBK: #192335;
 }

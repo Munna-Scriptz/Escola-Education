@@ -1,51 +1,52 @@
 
-import React from 'react';
+import React from 'react'
+import { Link } from 'react-router'
+import { FaAngleDown } from "react-icons/fa6";
+import Graph1 from '../assets/images/BannerGraph1.png'
+import Graph2 from '../assets/images/BannerGraph2.png'
+import ScholarShip from '../assets/images/BannerImg.png'
+import Percentage from '../assets/images/Percentage.png'
 
 const Banner = () => {
   return (
-    <section style={{ background: '#f8fafc', padding: '60px 0 40px 0', minHeight: '420px' }}>
-      <div style={{ maxWidth: '1200px', margin: '0 auto', display: 'flex', alignItems: 'center', justifyContent: 'space-between', gap: '40px', flexWrap: 'wrap' }}>
-        <div style={{ flex: 1, minWidth: '320px' }}>
-          <h1 style={{ fontSize: '2.8rem', fontWeight: 700, color: '#222', marginBottom: '18px', lineHeight: 1.2 }}>
-            Expand Your Horizons<br />through <span style={{ color: '#2563eb' }}>Education</span>
-          </h1>
-          <p style={{ color: '#6b7280', fontSize: '1.1rem', marginBottom: '28px' }}>Education for a Better Tomorrow.</p>
-          <button style={{ background: '#fff', color: '#2563eb', border: '1px solid #2563eb', borderRadius: '6px', padding: '10px 28px', fontWeight: 500, cursor: 'pointer', transition: 'background 0.2s' }}>Contact Us</button>
-        </div>
-        <div style={{ flex: 1.2, minWidth: '340px', display: 'flex', alignItems: 'center', gap: '24px', justifyContent: 'center' }}>
-          <div style={{ background: '#fff', borderRadius: '16px', boxShadow: '0 2px 12px #e5e7eb', padding: '22px 18px', minWidth: '120px', textAlign: 'center' }}>
-            <div style={{ fontSize: '13px', color: '#6b7280', marginBottom: '8px' }}>Adipiscing</div>
-            <img src="https://dummyimage.com/100x40/eee/aaa&text=Graph" alt="Graph" style={{ width: '100%', marginBottom: '10px' }} />
-            <div style={{ display: 'flex', justifyContent: 'space-between', fontWeight: 600, fontSize: '15px' }}>
-              <span>1205</span>
-              <span>840</span>
-            </div>
-            <div style={{ display: 'flex', justifyContent: 'space-between', fontSize: '11px', color: '#fbbf24' }}>
-              <span>Adipiscing</span>
-              <span>Consectetur</span>
+    <>
+      <section id='Banner' className='mt-[65px]'>
+        <div className="container">
+          {/* ---------------Row One----------------- */}
+          <div id="BannerRowOne" className='flex items-center justify-between'>
+            <h1 className='font-inter font-bold text-secondBK text-[75px] w-[857px]'>Expand Your Horizons through <span className='text-[#2F57EF]'>Education</span></h1>
+            <div>
+              <p className='font-inter text-[21px] text-secondBK mb-[49px]'>Education for a Better Tomorrow.</p>
+              <Link className='py-[25px] px-[45px] border-1 rounded-[5px] border-primary font-inter font-medium text-[15px] text-secondBK' to={'/'}>Contact Us</Link>
             </div>
           </div>
-          <div style={{ background: '#e5e7eb', borderRadius: '18px', width: '180px', height: '140px', position: 'relative', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-            <span style={{ position: 'absolute', top: '16px', right: '16px', background: '#fff', borderRadius: '50%', boxShadow: '0 2px 8px #e5e7eb', padding: '8px' }}>🎓</span>
-            {/* Placeholder for main banner image */}
-            <div style={{ width: '90px', height: '90px', background: '#cbd5e1', borderRadius: '12px' }}></div>
-          </div>
-          <div style={{ background: '#fff', borderRadius: '16px', boxShadow: '0 2px 12px #e5e7eb', padding: '22px 18px', minWidth: '120px', textAlign: 'center' }}>
-            <div style={{ fontSize: '13px', color: '#6b7280', marginBottom: '8px' }}>Lorem ipsum</div>
-            <div style={{ width: '70px', height: '70px', margin: '0 auto 10px auto', position: 'relative' }}>
-              <svg width="70" height="70">
-                <circle cx="35" cy="35" r="32" stroke="#e5e7eb" strokeWidth="6" fill="none" />
-                <circle cx="35" cy="35" r="32" stroke="#2563eb" strokeWidth="6" fill="none" strokeDasharray="201" strokeDashoffset="50" style={{ transition: 'stroke-dashoffset 0.5s' }} />
-              </svg>
-              <span style={{ position: 'absolute', top: '22px', left: '0', width: '70px', textAlign: 'center', fontWeight: 700, fontSize: '1.2rem', color: '#ef4444' }}>75%</span>
+          {/* ---------------Row One----------------- */}
+          <div id='BannerRowTwo' className='flex items-center justify-between mt-[78px]'>
+            <div className='flex flex-col items-center gap-[30px]'>
+              <img src={Graph1} alt="Graph" />
+              <img src={Graph2} alt="Graph" />
             </div>
-            <div style={{ fontSize: '12px', color: '#6b7280', marginBottom: '8px' }}>Lorem ipsum dolor sit amet, consectetur adipiscing</div>
-            <button style={{ background: '#fbbf24', color: '#fff', border: 'none', borderRadius: '6px', padding: '6px 18px', fontWeight: 500, cursor: 'pointer' }}>Suscipit</button>
+            <div className='rounded-b-[20px]'>
+              <img src={ScholarShip} alt="ScholarShip IMage" />
+            </div>
+            <div className='flex flex-col '>
+              <div>
+                <h2 className='text-[#233A45] text-[18px] font-inter font-medium'>Lorem ipsum</h2>
+                <p className='text-[#7C7D93] font-inter text-base mb-[20px]'>Lorem ipsum dolor sit amet</p>
+              </div>
+              <div> 
+                <img src={Percentage} alt="Image" />
+              </div>
+              <div>
+                <p className='text-[#7C7D93] font-inter text-base w-[210px] my-[24px]'>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+                <Link className='bg-[#FFD465] w-[192px] h-[39px] flex items-center justify-center rounded-full text-[#233A45] font-medium' to={'/'}>Subscription</Link>
+              </div>
+            </div>
           </div>
         </div>
-      </div>
-    </section>
-  );
-};
+      </section>
+    </>
+  )
+}
 
-export default Banner;
+export default Banner

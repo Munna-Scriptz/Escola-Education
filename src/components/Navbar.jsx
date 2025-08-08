@@ -4,6 +4,7 @@ import { IoCall } from "react-icons/io5";
 import { MdEmail } from "react-icons/md";
 import { FaAngleDown } from "react-icons/fa6";
 import { IoSearchSharp } from "react-icons/io5";
+import { MdOutlineShoppingCart } from "react-icons/md";
 
 import Logo from '../assets/images/Logo.png'
 const Navbar = () => {
@@ -41,7 +42,8 @@ const Navbar = () => {
           </div>
           <div className="flex items-center gap-4">
             <input type="text" placeholder="Search" className="w-[293px] h-[60px] outline-none border-1 border-[#19233533] pl-[20px] rounded-[5px]" />
-            <button className="h-[60px] w-[60px] bg-[#25C6DA] rounded-[5px] flex items-center justify-center text-white text-[20px]"><IoSearchSharp /></button>
+            <button className="h-[60px] w-[60px] bg-primary rounded-[5px] flex items-center justify-center text-white text-[20px] cursor-pointer"><IoSearchSharp /></button>
+            <button className="h-[60px] w-[60px] hover:bg-primary duration-[.3s] text-primary rounded-[5px] flex items-center justify-center hover:text-white text-[20px] cursor-pointer"><MdOutlineShoppingCart  /></button>
           </div>
         </nav>
       </div>
