@@ -7,6 +7,8 @@ import { FaStar } from "react-icons/fa";
 import { Link } from 'react-router';
 import { FaArrowRight } from "react-icons/fa";
 import Slider from 'react-slick';
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 const Services = () => {
     var settings = {
         dots: true,
