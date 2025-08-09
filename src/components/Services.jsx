@@ -3,6 +3,7 @@ import CommonHead from './common/CommonHead'
 import pfp from '../assets/images/ServicesProfile.png'
 import SliderImg from '../assets/images/ServiceSliderImg.png'
 import { FaRegUser } from "react-icons/fa6";
+import { FaStar } from "react-icons/fa";
 
 const Services = () => {
   return (
@@ -30,6 +31,16 @@ const Services = () => {
                         <div className='bg-[#2F57EF] w-[113px] h-[40px] absolute bottom-[10px] right-[10px] text-center rounded-[5px] flex items-center justify-center text-white font-inter font-medium text-[14px]'>
                             <p>Development</p>
                         </div>
+                    </div>
+                    <div className='mt-[22px] flex items-center gap-[7px]'>
+                        <div className='flex items-center gap-[2px] text-[#FF9747]'>
+                            <FaStar />
+                            <FaStar />
+                            <FaStar />
+                            <FaStar />
+                            <FaStar />
+                        </div>
+                            <p className='text-secondBK font-inter font-medium text-[12px]'>(15 Reviews)</p>
                     </div>
                 </div>
             </div>
