@@ -4,6 +4,8 @@ import pfp from '../assets/images/ServicesProfile.png'
 import SliderImg from '../assets/images/ServiceSliderImg.png'
 import { FaRegUser } from "react-icons/fa6";
 import { FaStar } from "react-icons/fa";
+import { Link } from 'react-router';
+import { FaArrowRight } from "react-icons/fa";
 
 const Services = () => {
   return (
@@ -40,7 +42,11 @@ const Services = () => {
                             <FaStar />
                             <FaStar />
                         </div>
-                            <p className='text-secondBK font-inter font-medium text-[12px]'>(15 Reviews)</p>
+                        <p className='text-secondBK font-inter font-medium text-[12px]'>(15 Reviews)</p>
+                    </div>
+                    <div className='mt-[16px]'>
+                        <h2 className='font-inter font-bold text-secondBK text-[25px] w-[330px] leading-[33px]'>The Power of Personal Branding</h2>
+                        <Link className='flex items-center gap-[8px] text-[#2F57EF] font-inter font-bold mt-[14px]' to={'/'}>Enroll Now <FaArrowRight /></Link>
                     </div>
                 </div>
             </div>
