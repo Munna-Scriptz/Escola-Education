@@ -57,7 +57,6 @@ const Services = () => {
             title: 'The Power of Personal Branding',
         },
     ]
-    console.log(SliderData);
   return (
     <>
         <section id='Services' className='mt-[120px]'>

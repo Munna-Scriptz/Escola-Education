@@ -30,7 +30,6 @@ const Testimonials = () => {
                         <p className='text-white font-inter font-bold text-[18px]'>testimonials</p>
                         <h2 className='font-inter font-bold text-[42px] leading-[54px] text-white mt-[18px] w-[410px]'>Advanced Engine Services</h2>
                         <p className='text-white font-inter font-normal text-[17px] w-[410px] mt-[20px]'>Education is the process of acquiring knowledge, skills, values, and attitudes through various methods such as teaching, </p>
-
                     </div>
                 </div>
             </div>

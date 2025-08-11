@@ -6,6 +6,7 @@ import Services from '../components/Services'
 import GetInTouch from '../components/GetInTouch'
 import Brands from '../components/Brands'
 import Testimonials from '../components/Testimonials'
+import Knowledge from '../components/Knowledge'
 
 const Home = () => {
   return (
@@ -17,6 +18,7 @@ const Home = () => {
       <GetInTouch/>
       <Brands/>
       <Testimonials/>
+      <Knowledge/>
     </>
   )
 }
