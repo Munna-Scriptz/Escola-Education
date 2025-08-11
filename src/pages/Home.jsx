@@ -4,6 +4,7 @@ import Teaches from '../components/Teaches'
 import Courses from '../components/Courses'
 import Services from '../components/Services'
 import GetInTouch from '../components/GetInTouch'
+import Brands from '../components/Brands'
 
 const Home = () => {
   return (
@@ -13,6 +14,7 @@ const Home = () => {
       <Courses/>
       <Services/>
       <GetInTouch/>
+      <Brands/>
     </>
   )
 }
