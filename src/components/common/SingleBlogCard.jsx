@@ -10,8 +10,8 @@ const SingleBlogCard = ({blogImg , heading}) => {
             {/* -------------Blog Image----------- */}
             <div className='relative'>
                 <img src={blogImg} alt="Blog image" />
-                <div className='absolute top-[20px] left-[20px] bg-txtBrand w-[80px] h-[80px] rounded-l-[5px] py-[9px] px-[20px] leading-[31px]'>
-                    <p className='text-white font-bold text-[21px] text-center'>21 FEB</p>
+                <div className='absolute top-[20px] left-[20px] bg-txtBrand lg:w-[80px] w-[60px] lg:h-[80px] h-[60px] rounded-l-[5px] py-[9px] px-[20px] leading-[31px]'>
+                    <p className='text-white font-bold lg:text-[21px] text-sm text-center'>21 FEB</p>
                 </div>
             </div>
             {/* -----------------Text Body------------------ */}

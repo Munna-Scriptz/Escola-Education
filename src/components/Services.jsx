@@ -6,17 +6,43 @@ import { FaRegUser } from "react-icons/fa6";
 import { FaStar } from "react-icons/fa";
 import { Link } from 'react-router';
 import { FaArrowRight } from "react-icons/fa";
-import Slider from 'react-slick';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import Slider from 'react-slick';
+
 const Services = () => {
-    var settings = {
+    const settings = {
         dots: true,
         infinite: false,
         speed: 500,
-        slidesToShow: 4,
-        slidesToScroll: 4,
-        initialSlide: 0,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 3,
+          infinite: true,
+          dots: true
+        }
+      },
+      {
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 2,
+          initialSlide: 2
+        }
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1
+        }
+      }
+    ]
     };
 
     const SliderData = [
@@ -62,7 +88,7 @@ const Services = () => {
         <section id='Services' className='mt-[120px]'>
             <div className="container">
                 {/* -------------Header----------------- */}
-                <div className='w-[434px]'>
+                <div className='lg:w-[434px] w-full'>
                     <CommonHead topText={'Services we’re offering'} BottomText={'Navigating your path to success'}/>
                 </div>
                 {/* -------------Services Slider----------------- */}
@@ -71,7 +97,7 @@ const Services = () => {
                         {
                             SliderData.map((item)=>{
                                 return (
-                                    <div className='mt-[40px] w-[410px] p-[30px]'>
+                                    <div className='mt-[40px] lg:w-[410px] w-full p-[30px]'>
                                     {/* ---------Pfp Image and Slider Image--------- */}
                                     <div className='flex items-center justify-between mb-[18px]'>
                                         <div className='flex items-center gap-[10px]'>

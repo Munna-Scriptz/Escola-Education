@@ -12,11 +12,11 @@ const Blog = () => {
             <div className="container">
                 <div id="Blog-Row">
                     {/* -----------------------------Header------------------------- */}
-                    <div className='w-[617px] mx-auto text-center'>
+                    <div className='lg:w-[617px] w-full mx-auto text-center'>
                         <CommonHead topText={'Blog & Article'} BottomText={'Business strategy is the plan and actions'}/>
                     </div>
                     {/* -----------------------------Blog Cards------------------------- */}
-                    <div className='mt-[51px] flex items-center justify-between'>
+                    <div className='mt-[51px] flex lg:flex-row gap-y-[20px] flex-col items-center justify-between'>
                         <SingleBlogCard blogImg={img1} heading={'Corporate culture refers to the values  beliefs market'}/>
                         <SingleBlogCard blogImg={img2} heading={'Unleashing the full potential of your business'}/>
                         <SingleBlogCard blogImg={img3} heading={'Solving problems seizing opportunities For Us'}/>
