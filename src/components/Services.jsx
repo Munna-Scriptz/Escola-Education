@@ -6,17 +6,18 @@ import { FaRegUser } from "react-icons/fa6";
 import { FaStar } from "react-icons/fa";
 import { Link } from 'react-router';
 import { FaArrowRight } from "react-icons/fa";
+import Slider from 'react-slick';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import Slider from 'react-slick';
 
 const Services = () => {
     const settings = {
         dots: true,
         infinite: false,
         speed: 500,
-        slidesToShow: 1,
+        slidesToShow: 3,
         slidesToScroll: 1,
+        arrows: false,
         responsive: [
       {
         breakpoint: 1024,
@@ -42,9 +43,8 @@ const Services = () => {
           slidesToScroll: 1
         }
       }
-    ]
+        ]
     };
-
     const SliderData = [
         {
             SliderPfp: pfp,
@@ -92,14 +92,13 @@ const Services = () => {
                     <CommonHead topText={'Services we’re offering'} BottomText={'Navigating your path to success'}/>
                 </div>
                 {/* -------------Services Slider----------------- */}
-                <div className="slider-container">
+                <div className="slider-container w-full overflow-hidden">
                     <Slider {...settings}>
                         {
-                            SliderData.map((item)=>{
-                                return (
-                                    <div className='mt-[40px] lg:w-[410px] w-full p-[30px]'>
+                           SliderData.map((item , i)=>(
+                                <div className='mt-[40px] lg:w-[410px] w-full lg:p-[30px]'>
                                     {/* ---------Pfp Image and Slider Image--------- */}
-                                    <div className='flex items-center justify-between mb-[18px]'>
+                                    <div className='relative flex items-center justify-between mb-[18px]'>
                                         <div className='flex items-center gap-[10px]'>
                                             <img src={pfp} alt="Review Imag" />
                                             <p className='text-secondBK font-inter text-[13px]'>By leonardo</p>
@@ -112,7 +111,7 @@ const Services = () => {
                                     {/* ---------Slider Image And label--------- */}
                                     <div className='relative'>
                                         <img src={SliderImg} alt="Slider Image" />
-                                        <div className='bg-[#2F57EF] w-[113px] h-[40px] absolute bottom-[10px] right-[10px] text-center rounded-[5px] flex items-center justify-center text-white font-inter font-medium text-[14px]'>
+                                        <div className='bg-[#2F57EF] w-[113px] h-[40px] absolute bottom-[10px] right-[25px] text-center rounded-[5px] flex items-center justify-center text-white font-inter font-medium text-[14px]'>
                                             <p>Development</p>
                                         </div>
                                     </div>
@@ -132,9 +131,8 @@ const Services = () => {
                                         <h2 className='font-inter font-bold text-secondBK text-[25px] w-[330px] leading-[33px]'>The Power of Personal Branding</h2>
                                         <Link className='flex items-center gap-[8px] text-[#2F57EF] font-inter font-bold mt-[14px]' to={'/'}>Enroll Now <FaArrowRight /></Link>
                                     </div>
-                             </div>
-                                )
-                            })
+                                </div>
+                           ))
                         }
                     </Slider>
                 </div>

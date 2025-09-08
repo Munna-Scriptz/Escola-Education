@@ -39,7 +39,7 @@ const Footer = () => {
       <div>
         <h2 className='font-inter font-bold text-lg lg:text-[21px] text-secondBK mb-5 lg:mb-[26px]'>Domains</h2>
         <div className='flex flex-col gap-3 lg:gap-[12px]'>
-          {["Domain Name Search","Domain Transfer","Domain Privacy","Website Security"].map((item,i)=>(
+          {["Credit industry","Credit Consulting","Business Credit industry","Finance industry"].map((item,i)=>(
             <div key={i} className='font-inter text-secondBK text-sm md:text-base lg:text-[17px] flex items-center gap-3 lg:gap-[20px]'>
               <FaArrowRight className='shrink-0'/>
               <Link to={'/'}>{item}</Link>
@@ -67,7 +67,7 @@ const Footer = () => {
         <div className='flex flex-col gap-3 lg:gap-[12px]'>
           <p className='font-inter text-secondBK text-sm md:text-base lg:text-[17px]'><span className='font-bold'>Email:</span> munnascriptz@gmail.com</p>
           <p className='font-inter text-secondBK text-sm md:text-base lg:text-[17px]'><span className='font-bold'>Call:</span> +880 1327-312666</p>
-          <p className='font-inter text-secondBK text-sm md:text-base lg:text-[17px]'><span className='font-bold'>Location:</span> Ekrampur CNG Station, Kishoreganj, Dhaka, Bangladesh </p>
+          <p className='font-inter text-secondBK text-sm md:text-base lg:text-[17px]'><span className='font-bold'>Location:</span> Dhaka, Bangladesh </p>
         </div>
       </div>
     </div>
