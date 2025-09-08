@@ -1,4 +1,7 @@
 /* --------------Common Css--------------- */
+body{
+    font-family: "Inter", "sans-serif";
+}
 #Banner{
     width: 100%;
     background-image: url(../src/assets/images/BannerDeco.png);

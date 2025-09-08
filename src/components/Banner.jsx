@@ -14,10 +14,10 @@ const Banner = () => {
         <div className="container">
           {/* ---------------Row One----------------- */}
           <div id="BannerRowOne" className='flex items-center justify-between'>
-            <h1 className='font-inter font-bold text-secondBK text-[75px] w-[857px]'>Expand Your Horizons through <span className='text-[#2F57EF]'>Education</span></h1>
+            <h1 className='font-inter font-bold text-secondBK text-[65px] w-[857px]'>Expand Your Horizons through <span className='text-txtBrand'>Education</span></h1>
             <div>
               <p className='font-inter text-[21px] text-secondBK mb-[49px]'>Education for a Better Tomorrow.</p>
-              <Link className='py-[25px] px-[45px] border-1 rounded-[5px] border-primary font-inter font-medium text-[15px] text-secondBK' to={'/'}>Contact Us</Link>
+              <Link className='py-[20px] px-[45px] border-1 rounded-[5px] border-brand hover:bg-brand hover:text-white duration-300 font-inter font-medium text-[15px] text-secondBK' to={'/'}>Contact Us</Link>
             </div>
           </div>
           {/* ---------------Row One----------------- */}

@@ -7,6 +7,8 @@ import GetInTouch from '../components/GetInTouch'
 import Brands from '../components/Brands'
 import Testimonials from '../components/Testimonials'
 import Knowledge from '../components/Knowledge'
+import Article from '../components/Article'
+import Blog from '../components/Blog'
 
 const Home = () => {
   return (
@@ -19,6 +21,8 @@ const Home = () => {
       <Brands/>
       <Testimonials/>
       <Knowledge/>
+      <Article/>
+      <Blog/>
     </>
   )
 }

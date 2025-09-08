@@ -40,10 +40,10 @@ const Navbar = () => {
               <li className="hover:text-blue-600 cursor-pointer flex items-center gap-1">Contact <FaAngleDown className='text-[10px]'/></li>
             </ul>
           </div>
-          <div className="flex items-center gap-4">
-            <input type="text" placeholder="Search" className="w-[293px] h-[60px] outline-none border-1 border-[#19233533] pl-[20px] rounded-[5px]" />
-            <button className="h-[60px] w-[60px] bg-primary rounded-[5px] flex items-center justify-center text-white text-[20px] cursor-pointer"><IoSearchSharp /></button>
-            <button className="h-[60px] w-[60px] hover:bg-primary duration-[.3s] text-primary rounded-[5px] flex items-center justify-center hover:text-white text-[20px] cursor-pointer"><MdOutlineShoppingCart  /></button>
+          <div className="flex items-center gap-2">
+            <input type="text" placeholder="Search" className="w-[263px] h-[50px] outline-none border-1 border-[#19233533] pl-[20px] rounded-[5px]" />
+            <button className="h-[50px] w-[50px] bg-brand rounded-[5px] flex items-center justify-center text-white text-[20px] cursor-pointer"><IoSearchSharp /></button>
+            <button className="h-[50px] w-[50px] hover:bg-brand duration-[.3s] text-brbg-brand rounded-[5px] flex items-center justify-center hover:text-white text-[20px] cursor-pointer"><MdOutlineShoppingCart  /></button>
           </div>
         </nav>
       </div>
