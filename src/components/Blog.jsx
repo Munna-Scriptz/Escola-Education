@@ -1,6 +1,9 @@
 import React from 'react'
 import CommonHead from './common/CommonHead'
 import SingleBlogCard from './common/SingleBlogCard'
+import img1 from '../assets/images/blogImg1.png'
+import img2 from '../assets/images/blogImg2.png'
+import img3 from '../assets/images/blogImg3.png'
 
 const Blog = () => {
   return (
@@ -13,8 +16,10 @@ const Blog = () => {
                         <CommonHead topText={'Blog & Article'} BottomText={'Business strategy is the plan and actions'}/>
                     </div>
                     {/* -----------------------------Blog Cards------------------------- */}
-                    <div className='mt-[51px]'>
-                        <SingleBlogCard/>
+                    <div className='mt-[51px] flex items-center justify-between'>
+                        <SingleBlogCard blogImg={img1} heading={'Corporate culture refers to the values  beliefs market'}/>
+                        <SingleBlogCard blogImg={img2} heading={'Unleashing the full potential of your business'}/>
+                        <SingleBlogCard blogImg={img3} heading={'Solving problems seizing opportunities For Us'}/>
                     </div>
                 </div>
             </div>

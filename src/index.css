@@ -7,6 +7,7 @@
   margin-inline: auto;
   padding-inline: 0rem;
 }
+
 /* ------------Themes------------ */
 @theme{
   --font-inter: "Inter", "sans-serif";
@@ -14,4 +15,10 @@
   --color-primary: #EF0101;
   --color-txtBrand: #2F57EF;
   --color-secondBK: #192335;
+}
+
+@media (min-width: 320px) and (max-width: 576px) { 
+  .container {
+    padding-inline: 1rem;
+  }
 }

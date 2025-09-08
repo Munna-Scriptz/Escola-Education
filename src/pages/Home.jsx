@@ -13,16 +13,18 @@ import Blog from '../components/Blog'
 const Home = () => {
   return (
     <>
-      <Banner/>
-      <Teaches/>
-      <Courses/>
-      <Services/>
-      <GetInTouch/>
-      <Brands/>
-      <Testimonials/>
-      <Knowledge/>
-      <Article/>
-      <Blog/>
+      <div id='HomePage'>
+        <Banner/>
+        <Teaches/>
+        <Courses/>
+        <Services/>
+        <GetInTouch/>
+        <Brands/>
+        <Testimonials/>
+        <Knowledge/>
+        <Article/>
+        <Blog/>
+      </div>
     </>
   )
 }

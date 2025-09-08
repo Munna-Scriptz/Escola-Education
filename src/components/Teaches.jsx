@@ -8,9 +8,9 @@ const Teaches = () => {
     <>
         <section id="teaches" className='mt-[186px]'>
             <div className="container">
-                <div id="TeachesRow" className='flex items-center justify-between'>
+                <div id="TeachesRow" className='flex lg:flex-row flex-col items-center justify-between'>
                     {/* --------------Card 1-------------- */}
-                    <div className='w-[300px] p-[30px] flex flex-col items-center justify-center bg-white rounded-[10px]'>
+                    <div className='lg:w-[300px] w-full p-[30px] flex flex-col items-center justify-center bg-white rounded-[10px]'>
                         <img src={Teaches1} alt="Icon" />
                         <h2 className='text-secondBK font-inter font-bold text-[21px] mt-[20px]'>Future Focus</h2>
                         <p className='text-secondBK font-inter font-normal text-[17px] text-center mt-[15px]'>Lorem ipsum dolor sit amet consectetur. Nibh viverra dolor diam </p>

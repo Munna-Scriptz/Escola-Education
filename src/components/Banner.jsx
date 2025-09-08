@@ -13,20 +13,20 @@ const Banner = () => {
       <section id='Banner' className='mt-[65px]'>
         <div className="container">
           {/* ---------------Row One----------------- */}
-          <div id="BannerRowOne" className='flex items-center justify-between'>
-            <h1 className='font-inter font-bold text-secondBK text-[65px] w-[857px]'>Expand Your Horizons through <span className='text-txtBrand'>Education</span></h1>
+          <div id="BannerRowOne" className='flex lg:flex-row flex-col lg:items-center justify-between'>
+            <h1 className='font-inter font-bold text-secondBK lg:text-[65px] text-[35px] lg:w-[857px] w-full lg:mb-0 mb-5'>Expand Your Horizons through <span className='text-txtBrand'>Education</span></h1>
             <div>
-              <p className='font-inter text-[21px] text-secondBK mb-[49px]'>Education for a Better Tomorrow.</p>
-              <Link className='py-[20px] px-[45px] border-1 rounded-[5px] border-brand hover:bg-brand hover:text-white duration-300 font-inter font-medium text-[15px] text-secondBK' to={'/'}>Contact Us</Link>
+              <p className='font-inter lg:text-[21px] text-base text-secondBK md:mb-[49px] mb-[35px]'>Education for a Better Tomorrow.</p>
+              <Link className='lg:py-[20px] py-[12px] lg:px-[45px] px-[35px] border-1 rounded-[5px] border-brand hover:bg-brand hover:text-white duration-300 font-inter font-medium text-[15px] text-secondBK' to={'/'}>Contact Us</Link>
             </div>
           </div>
           {/* ---------------Row One----------------- */}
-          <div id='BannerRowTwo' className='flex items-center justify-between mt-[78px]'>
-            <div className='flex flex-col items-center gap-[30px]'>
+          <div id='BannerRowTwo' className='flex lg:flex-row flex-col lg:items-center justify-between mt-[78px]'>
+            <div className='flex-col lg:items-center gap-[30px] md:flex hidden'>
               <img src={Graph1} alt="Graph" />
               <img src={Graph2} alt="Graph" />
             </div>
-            <div className='rounded-b-[20px]'>
+            <div className='rounded-b-[20px] md:mb-0 mb-5'>
               <img src={ScholarShip} alt="ScholarShip IMage" />
             </div>
             <div className='flex flex-col '>
