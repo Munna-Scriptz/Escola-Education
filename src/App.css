@@ -23,6 +23,13 @@ body{
     background-size: cover;
     background-position: center;
 }
+#Review-About{
+    background: url(../src/assets/images/ClientsSvgBg.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
 footer{
     width: 100%;
     background-image: url(../src/assets/images/FooterBg.png);
