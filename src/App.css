@@ -2,6 +2,14 @@
 body{
     font-family: "Inter", "sans-serif";
 }
+#Breadcrumb{
+    width: 100%;
+    height: 320px;
+    background-image: url(../src/assets/images/breadcrumbBg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
 #Banner{
     width: 100%;
     background-image: url(../src/assets/images/BannerDeco.png);

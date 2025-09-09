@@ -7,11 +7,12 @@ import { IoSearchSharp } from "react-icons/io5";
 import { MdOutlineShoppingCart } from "react-icons/md";
 
 import Logo from '../../assets/images/Logo.png'
+import { Link } from 'react-router';
 const Navbar = () => {
   return (
-    <header className='lg:block hidden'>
+    <div className='lg:block hidden'>
       {/* ----------------Header Section----------------- */}
-        <div className="py-[12px] bg-[#F3F6FB]">
+        <header className="py-[12px] bg-[#F3F6FB]">
           <div className="container">
             <div className='flex items-center justify-between'>
               <div className="flex items-center gap-2 text-secondBK font-inter text-[17px]">
@@ -24,7 +25,7 @@ const Navbar = () => {
               </div>
             </div>
           </div>
-        </div>
+        </header>
       {/* ----------------Navbar Section----------------- */}
       <nav>
         <div className="container">
@@ -32,13 +33,13 @@ const Navbar = () => {
             <div className='flex items-center gap-[32px]'>
               <img src={Logo} alt="Logo" />
               <ul className="flex items-center gap-[24px] font-inter text-base text-secondBK font-medium">
-                <li className="hover:text-blue-600 cursor-pointer flex items-center gap-1">Home <FaAngleDown className='text-[10px]'/></li>
-                <li className="hover:text-blue-600 cursor-pointer flex items-center gap-1">About Us <FaAngleDown className='text-[10px]'/></li>
-                <li className="hover:text-blue-600 cursor-npm run devointer flex items-center gap-1">Services <FaAngleDown className='text-[10px]'/></li>
-                <li className="hover:text-blue-600 cursor-pointer flex items-center gap-1">Projects <FaAngleDown className='text-[10px]'/></li>
-                <li className="hover:text-blue-600 cursor-pointer flex items-center gap-1">Blog <FaAngleDown className='text-[10px]'/></li>
-                <li className="hover:text-blue-600 cursor-pointer flex items-center gap-1">Page <FaAngleDown className='text-[10px]'/></li>
-                <li className="hover:text-blue-600 cursor-pointer flex items-center gap-1">Contact <FaAngleDown className='text-[10px]'/></li>
+                <Link to={'/'} className="hover:text-blue-600 cursor-pointer flex items-center gap-1">Home <FaAngleDown className='text-[10px]'/></Link>
+                <Link to={'/about'} className="hover:text-blue-600 cursor-pointer flex items-center gap-1">About Us <FaAngleDown className='text-[10px]'/></Link>
+                <Link to={'/services'} className="hover:text-blue-600 cursor-npm run devointer flex items-center gap-1">Services <FaAngleDown className='text-[10px]'/></Link>
+                <Link to={'/projects'} className="hover:text-blue-600 cursor-pointer flex items-center gap-1">Projects <FaAngleDown className='text-[10px]'/></Link>
+                <Link to={'/blog'} className="hover:text-blue-600 cursor-pointer flex items-center gap-1">Blog <FaAngleDown className='text-[10px]'/></Link>
+                <Link to={'/page'} className="hover:text-blue-600 cursor-pointer flex items-center gap-1">Page <FaAngleDown className='text-[10px]'/></Link>
+                <Link to={'/contact'} className="hover:text-blue-600 cursor-pointer flex items-center gap-1">Contact <FaAngleDown className='text-[10px]'/></Link>
               </ul>
             </div>
             <div className="flex items-center gap-2">
@@ -50,7 +51,7 @@ const Navbar = () => {
         </div>
       </nav>
 
-    </header>
+    </div>
   );
 };
 
