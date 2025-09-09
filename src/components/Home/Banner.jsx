@@ -2,10 +2,10 @@
 import React from 'react'
 import { Link } from 'react-router'
 import { FaAngleDown } from "react-icons/fa6";
-import Graph1 from '../assets/images/BannerGraph1.png'
-import Graph2 from '../assets/images/BannerGraph2.png'
-import ScholarShip from '../assets/images/BannerImg.png'
-import Percentage from '../assets/images/Percentage.png'
+import Graph1 from '../../assets/images/BannerGraph1.png'
+import Graph2 from '../../assets/images/BannerGraph2.png'
+import ScholarShip from '../../assets/images/BannerImg.png'
+import Percentage from '../../assets/images/Percentage.png'
 
 const Banner = () => {
   return (

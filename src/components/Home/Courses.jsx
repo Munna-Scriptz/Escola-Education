@@ -1,9 +1,9 @@
 import React from 'react'
-import CourseImg from '../assets/images/CoursesImg.png'
-import CourseICon1 from '../assets/images/CourseIcon1.png'
-import CourseICon2 from '../assets/images/CourseIcon2.png'
-import CourseICon3 from '../assets/images/CourseIcon3.png'
-import CommonHead from './common/CommonHead'
+import CourseImg from '../../assets/images/CoursesImg.png'
+import CourseICon1 from '../../assets/images/CourseIcon1.png'
+import CourseICon2 from '../../assets/images/CourseIcon2.png'
+import CourseICon3 from '../../assets/images/CourseIcon3.png'
+import CommonHead from '../common/CommonHead'
 import { FaCheck } from "react-icons/fa6";
 
 const Courses = () => {

@@ -1,11 +1,9 @@
 import React, { useEffect, useState } from 'react'
-import Logo from '../assets/images/Logo.png'
+import Logo from '../../assets/images/Logo.png'
 import { Link } from 'react-router'
 import { IoHomeOutline } from 'react-icons/io5';
-import { LuShoppingBag } from 'react-icons/lu';
 import { MdConnectWithoutContact, MdOutlineGroup } from 'react-icons/md';
 import { RiUserLine } from 'react-icons/ri';
-import { TbArrowsJoin } from 'react-icons/tb';
 import { IoIosGitNetwork } from 'react-icons/io';
 import { GoProjectSymlink } from 'react-icons/go';
 import { GrBlog } from 'react-icons/gr';

@@ -1,8 +1,8 @@
 import React from 'react'
-import Teaches1 from '../assets/images/Teaches1.png'
-import Teaches2 from '../assets/images/Teaches2.png'
-import Teaches3 from '../assets/images/Teaches3.png'   
-import Teaches4 from '../assets/images/Teaches4.png'
+import Teaches1 from '../../assets/images/Teaches1.png'
+import Teaches2 from '../../assets/images/Teaches2.png'
+import Teaches3 from '../../assets/images/Teaches3.png'   
+import Teaches4 from '../../assets/images/Teaches4.png'
 const Teaches = () => {
   return (
     <>

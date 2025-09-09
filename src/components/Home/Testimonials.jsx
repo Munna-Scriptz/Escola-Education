@@ -1,9 +1,9 @@
 import React from 'react'
-import TestimonialImage from '../assets/images/TestimonialImage.png'
-import TestimonialPlay from '../assets/images/TestimonialPLay.png'
+import TestimonialImage from '../../assets/images/TestimonialImage.png'
+import TestimonialPlay from '../../assets/images/TestimonialPLay.png'
 import { Link } from 'react-router'
 import { FaQuoteLeft } from "react-icons/fa";
-import pfp1 from '../assets/images/ServicesProfile.png'
+import pfp1 from '../../assets/images/ServicesProfile.png'
 import Slider from 'react-slick';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";

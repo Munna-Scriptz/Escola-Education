@@ -1,7 +1,7 @@
 import React from 'react'
-import CommonHead from './common/CommonHead'
-import pfp from '../assets/images/ServicesProfile.png'
-import SliderImg from '../assets/images/ServiceSliderImg.png'
+import CommonHead from '../common/CommonHead'
+import pfp from '../../assets/images/ServicesProfile.png'
+import SliderImg from '../../assets/images/ServiceSliderImg.png'
 import { FaRegUser } from "react-icons/fa6";
 import { FaStar } from "react-icons/fa";
 import { Link } from 'react-router';

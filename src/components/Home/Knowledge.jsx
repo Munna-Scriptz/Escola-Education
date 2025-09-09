@@ -1,6 +1,6 @@
 import React from 'react'
-import KnowledgeImg from '../assets/images/KnowledgeImage.png'
-import CommonHead from './common/CommonHead'
+import KnowledgeImg from '../../assets/images/KnowledgeImage.png'
+import CommonHead from '../common/CommonHead'
 import { FaCheck } from "react-icons/fa6";
 
 const Knowledge = () => {

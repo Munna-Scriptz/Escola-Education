@@ -6,7 +6,7 @@ import { FaAngleDown } from "react-icons/fa6";
 import { IoSearchSharp } from "react-icons/io5";
 import { MdOutlineShoppingCart } from "react-icons/md";
 
-import Logo from '../assets/images/Logo.png'
+import Logo from '../../assets/images/Logo.png'
 const Navbar = () => {
   return (
     <header className='lg:block hidden'>
