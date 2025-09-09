@@ -17,7 +17,7 @@ const Courses = () => {
                         <div className='relative'>
                             <img src={CourseImg} alt="Image" />
                             <div className='bg-white lg:w-[268px] w-[170px] absolute top-[15px] left-[15px] flex items-center gap-[15px] p-[12px] rounded-[5px] shadow-[0_3px_10px_rgb(0,0,0,0.2)]'>
-                                <img src={CourseICon3} alt="icon" className='lg:w-full w-[30px]'/>
+                                <img src={CourseICon3} alt="icon" className='lg:w-[60px] w-[30px]'/>
                                 <div>
                                     <h1 className='text-secondBK font-inter font-bold lg:text-[21px] text-sm'>Daily Activity</h1>
                                     <p className='text-secondBK font-inter font-normal lg:text-[17px] text-xs'>Loream is ispam</p>

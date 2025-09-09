@@ -110,8 +110,8 @@ const Services = () => {
                                     </div>
                                     {/* ---------Slider Image And label--------- */}
                                     <div className='relative'>
-                                        <img src={SliderImg} alt="Slider Image" />
-                                        <div className='bg-[#2F57EF] w-[113px] h-[40px] absolute bottom-[10px] right-[25px] text-center rounded-[5px] flex items-center justify-center text-white font-inter font-medium text-[14px]'>
+                                        <img className='w-full' src={SliderImg} alt="Slider Image" />
+                                        <div className='bg-[#2F57EF] w-[113px] h-[40px] absolute bottom-[10px] right-[10px] text-center rounded-[5px] flex items-center justify-center text-white font-inter font-medium text-[14px]'>
                                             <p>Development</p>
                                         </div>
                                     </div>
