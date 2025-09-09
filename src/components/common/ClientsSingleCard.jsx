@@ -1,7 +1,7 @@
 import React from 'react'
 import { FaQuoteRight, FaStar } from 'react-icons/fa6'
 import reviewImg from '../../assets/images/ServicesProfile.png'
-const ClientsSingleCard = () => {
+const ClientsSingleCard = ({img , text , name , role}) => {
   return (
     <>
         <div className='w-[410px] py-[40px] px-[40px] rounded-[5px] bg-white'>
@@ -18,12 +18,12 @@ const ClientsSingleCard = () => {
                     <FaQuoteRight />
                 </div>
             </div>
-            <p className='text-secondBK text-[17px] leading-[26px] my-[40px]'>Tempor turpis nisl dui ut facilisi tempus ouri at our euismod. Lacinia facilisis ullamcorper tellus is netus rutrum cras venenatis </p>
+            <p className='text-secondBK text-[17px] leading-[26px] my-[40px]'>{text}</p>
             <div className='flex items-center gap-[15px]'>
-                <img src={reviewImg} alt="pfp" />
+                <img src={img} alt="pfp" />
                 <div>
-                    <h2 className='text-secondBK text-lg font-bold'>Courtney Henry</h2>
-                    <p className='text-secondBK text-[17px] mt-1'>Marketing specialist</p>
+                    <h2 className='text-secondBK text-lg font-bold'>{name}</h2>
+                    <p className='text-secondBK text-[17px] mt-1'>{role}</p>
                 </div>
             </div>
         </div>
