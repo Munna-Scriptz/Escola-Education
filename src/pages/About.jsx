@@ -5,6 +5,7 @@ import Passion from '../components/About/Passion'
 import PopularCourses from '../components/About/PopularCourses'
 import Brands from '../components/Home/Brands'
 import ClientsReview from '../components/About/ClientsReview'
+import GetInTouch from '../components/Home/GetInTouch'
 
 const About = () => {
   return (
@@ -15,6 +16,7 @@ const About = () => {
         <PopularCourses/>
         <Brands/>
         <ClientsReview/>
+        <GetInTouch/>
     </>
   )
 }

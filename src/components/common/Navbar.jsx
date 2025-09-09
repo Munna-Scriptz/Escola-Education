@@ -31,7 +31,7 @@ const Navbar = () => {
         <div className="container">
           <div id='Navbar-Row' className="flex items-center justify-between py-4">
             <div className='flex items-center gap-[32px]'>
-              <img src={Logo} alt="Logo" />
+              <Link to={'/'}><img src={Logo} alt="Logo" /></Link>
               <ul className="flex items-center gap-[24px] font-inter text-base text-secondBK font-medium">
                 <Link to={'/'} className="hover:text-blue-600 cursor-pointer flex items-center gap-1">Home <FaAngleDown className='text-[10px]'/></Link>
                 <Link to={'/about'} className="hover:text-blue-600 cursor-pointer flex items-center gap-1">About Us <FaAngleDown className='text-[10px]'/></Link>

@@ -1,10 +1,9 @@
 import React from 'react'
 import { FaQuoteRight, FaStar } from 'react-icons/fa6'
-import reviewImg from '../../assets/images/ServicesProfile.png'
 const ClientsSingleCard = ({img , text , name , role}) => {
   return (
     <>
-        <div className='w-[410px] py-[40px] px-[40px] rounded-[5px] bg-white'>
+        <div className='lg:w-[410px] w-full lg:py-[40px] py-[25px] lg:px-[40px] px-[25px] rounded-[5px] bg-white'>
             {/* ----------------Stars---------------- */}
             <div className='flex items-center justify-between'>
                 <div className='flex items-center gap-2 text-[#FFBA08] text-lg'>

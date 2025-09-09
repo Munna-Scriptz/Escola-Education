@@ -9,7 +9,7 @@ import { FaCheck } from "react-icons/fa6";
 const Courses = () => {
   return (
     <>
-        <section id="Courses" className='mt-[120px]'>
+        <section id="Courses" className='lg:mt-[120px] mt-[80px]'>
             <div className="container">
                 <div id="CourseRow" className='flex lg:flex-row flex-col items-center gap-[80px]'>
                     {/* ----------Left Side-------- */}
@@ -25,14 +25,14 @@ const Courses = () => {
                             </div>
                         </div>
                         <div className='flex items-center justify-around'>
-                            <div className='mt-[66px] flex items-center lg:gap-[37px] gap-3'>
+                            <div className='lg:mt-[66px] mt-[32px] flex items-center lg:gap-[37px] gap-3'>
                                 <img src={CourseICon1} alt="Icon" className='lg:w-full w-[40px]'/>
                                 <div>
                                     <h2 className='font-inter text-[#6864ED] font-bold lg:text-[46px] text-xl'>200+</h2>
                                     <p className='font-inter text-[#151718] font-medium lg:text-[21px] text-base'>Courses</p>
                                 </div>
                             </div>
-                            <div className='mt-[66px] flex items-center lg:gap-[37px] gap-3'>
+                            <div className='lg:mt-[66px] mt-[32px] flex items-center lg:gap-[37px] gap-3'>
                                 <img src={CourseICon2} alt="Icon" className='lg:w-full w-[40px]'/>
                                 <div>
                                     <h2 className='font-inter text-[#6864ED] font-bold lg:text-[46px] text-xl'>200+</h2>

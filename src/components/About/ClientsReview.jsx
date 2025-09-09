@@ -42,7 +42,7 @@ const ClientsReview = () => {
                 breakpoint: 480,
                 settings: {
                 slidesToShow: 1,
-                slidesToScroll: 1
+                slidesToScroll: 1,
                 }
             }
         ]
@@ -87,15 +87,15 @@ const ClientsReview = () => {
     ]
   return (
     <>
-        <section id='Review-About' className='py-[120px]'>
+        <section id='Review-About' className='lg:py-[120px] py-[80px] overflow-hidden'>
             <div className="container">
                 <div id="Review-Row">
                     {/* ------------------Header-------------------- */}
-                    <div className='flex items-center justify-between'>
-                        <div className='w-[414px]'>
+                    <div className='flex lg:flex-row flex-col lg:items-center justify-between'>
+                        <div className='lg:w-[414px] w-full'>
                             <CommonHead topText={'Clients review'} BottomText={'Expert Guidance for Your Journey'}/>
                         </div>
-                        <div className='flex items-center gap-2'>
+                        <div className='items-center gap-2 flex lg:mt-0 mt-8'>
                             <div onClick={() => document.querySelector(".slick-prev")?.click()} className="w-[60px] h-[60px] bg-[#2f55ef2d] hover:bg-txtBrand hover:text-white duration-[.3s] flex items-center justify-center text-txtBrand rounded-[5px] cursor-pointer">
                                 <MdKeyboardDoubleArrowLeft size={25} />
                             </div>

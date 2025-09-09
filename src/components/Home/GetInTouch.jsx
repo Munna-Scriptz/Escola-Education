@@ -59,7 +59,7 @@ const GetInTouch = () => {
               </div>
               {/* ------------Submit Button---------- */}
               <button className="mt-[20px] lg:mt-[30px] bg-[#2F57EF] text-white w-full py-[15px] lg:py-[22px] text-[15px] lg:text-[17px] font-inter rounded-[5px] cursor-pointer px-8 z-30 font-semibold relative after:-z-20 after:absolute after:h-1 after:w-1 after:bg-secondBK after:left-5 overflow-hidden after:bottom-0 after:translate-y-full after:rounded-md hover:after:scale-[300] hover:after:transition-all hover:after:duration-700 after:transition-all after:duration-700 transition-all duration-700">
-                Hover Me
+                Send Contact
               </button>
             </div>
           </div>

@@ -45,11 +45,11 @@ const ResNav = () => {
                 <ul className='flex flex-col items-start gap-6 text-md mt-25'>
                     <li><Link onClick={()=>SetValue(!Value)} className='text-secondBK flex text-xl items-center gap-2' to={'/'}><IoHomeOutline/> Home</Link></li>
                     <li><Link onClick={()=>SetValue(!Value)} className='text-secondBK flex text-xl items-center gap-2' to={'/about'}><MdOutlineGroup/> About Us</Link></li>
-                    <li><Link onClick={()=>SetValue(!Value)} className='text-secondBK flex text-xl items-center gap-2' to={'/about'}><IoIosGitNetwork /> Services</Link></li>
-                    <li><Link onClick={()=>SetValue(!Value)} className='text-secondBK flex text-xl items-center gap-2' to={'/shop'}><GoProjectSymlink/> Projects</Link></li>
-                    <li><Link onClick={()=>SetValue(!Value)} className='text-secondBK flex text-xl items-center gap-2' to={'/Login'}><RiUserLine/> Blog</Link></li>
-                    <li><Link onClick={()=>SetValue(!Value)} className='text-secondBK flex text-xl items-center gap-2' to={'/Login'}><GrBlog/> Page</Link></li>
-                    <li><Link onClick={()=>SetValue(!Value)} className='text-secondBK flex text-xl items-center gap-2' to={'/Login'}><MdConnectWithoutContact/> Contact</Link></li>
+                    <li><Link onClick={()=>SetValue(!Value)} className='text-secondBK flex text-xl items-center gap-2' to={'/services'}><IoIosGitNetwork /> Services</Link></li>
+                    <li><Link onClick={()=>SetValue(!Value)} className='text-secondBK flex text-xl items-center gap-2' to={'/projects'}><GoProjectSymlink/> Projects</Link></li>
+                    <li><Link onClick={()=>SetValue(!Value)} className='text-secondBK flex text-xl items-center gap-2' to={'/blog'}><RiUserLine/> Blog</Link></li>
+                    <li><Link onClick={()=>SetValue(!Value)} className='text-secondBK flex text-xl items-center gap-2' to={'/page'}><GrBlog/> Page</Link></li>
+                    <li><Link onClick={()=>SetValue(!Value)} className='text-secondBK flex text-xl items-center gap-2' to={'/contact'}><MdConnectWithoutContact/> Contact</Link></li>
                 </ul>
             </div>
         </div>
